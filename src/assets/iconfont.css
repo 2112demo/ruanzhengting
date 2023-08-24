@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4222098 */
+  src: url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.woff2?t=1692778467868') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.woff?t=1692778467868') format('woff'),
+       url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.ttf?t=1692778467868') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-excel-:before {
+  content: "\e600";
+}
+
+.icon-dingdan:before {
+  content: "\e62c";
+}
