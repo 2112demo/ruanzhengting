@@ -1,0 +1,167 @@
+.new {
+  box-sizing: border-box;
+  padding: 0 14px;
+}
+.new .header {
+  text-align: left;
+  height: 60px;
+  line-height: 60px;
+}
+.new .header .van-icon {
+  font-size: 30px;
+  color: #2c4198;
+}
+.new .content {
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.new .content .steps-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #f0f0f0;
+}
+.new .content .steps-box .steps-item {
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+.new .content .steps-box .steps-item h1 {
+  font-family: "方正汉真广标简体";
+  font-size: 60px;
+  margin-right: 6px;
+}
+.new .content .steps-box .steps-item .steps-msg {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.new .content .steps-box .steps-item .steps-msg span:nth-child(1) {
+  font-weight: bold;
+}
+.new .content .steps-box .steps-item .steps-msg span:nth-child(2) {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.new .content .steps-box .steps-circle {
+  display: flex;
+  align-items: center;
+}
+.new .content .steps-box .steps-circle div:nth-child(2) {
+  width: 14px;
+  height: 14px;
+}
+.new .content .steps-box .steps-circle div {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 40px;
+  background: #999999;
+}
+.new .content .steps-box .steps-item.green {
+  color: #28c76f;
+}
+.new .content .steps-box .steps-item.red {
+  color: #dd2617;
+}
+.new .content .box .input-box {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+.new .content .box .input-box > div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.new .content .box .input-box > div label {
+  width: 80px;
+  display: inline-block;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.new .content .box .input-box > div input,
+.new .content .box .input-box > div select,
+.new .content .box .input-box > div textarea {
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-right: 10px;
+}
+.new .content .box .input-box > div input,
+.new .content .box .input-box > div select {
+  width: 300px;
+}
+.new .content .box .input-box .day > .block {
+  border: none;
+}
+.new .content .box .input-box .button {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.new .content .box .input-box .button .el-button {
+  box-shadow: 0px 0px 10px #b4b4b4;
+}
+.new .content .box .project-box {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+.new .content .box .project-box > div {
+  margin-top: 30px;
+}
+.new .content .box .project-box > div label {
+  font-size: 14px;
+}
+.new .content .box .project-box > div:nth-child(1) span {
+  font-size: 16px;
+  color: #159f81;
+  font-weight: bold;
+}
+.new .content .box .project-box > div:nth-child(2) {
+  display: flex;
+}
+.new .content .box .project-box > div:nth-child(2) div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  width: 120px;
+  border: 1px solid #159f81;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #159f81;
+}
+.new .content .box .project-box > div:nth-child(2) div img {
+  width: 20px;
+  height: 20px;
+}
+.new .content .box .project-box > div:nth-child(3) {
+  display: flex;
+}
+.new .content .box .project-box > div:nth-child(3) .file {
+  height: 182px;
+  width: 548px;
+  border-radius: 10px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.new .content .box .project-box > div:nth-child(3) .file img {
+  width: 140px;
+}
+.new .content .box .project-box > div:nth-child(3) .file > span {
+  display: inline-block;
+  width: 60%;
+}
+.new .content .box .project-box > div:nth-child(3) .file > span span {
+  color: blue;
+}
+.new .content .box .project-box .button {
+  margin-top: 30px;
+}

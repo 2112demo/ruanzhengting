@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="box">
+    <div class="boxApp">
     <div class="left" :class=" isMove === 1 ? 'size' : '' ">
       <div class="head">
         <span>灵活用工服务平台</span>
@@ -127,7 +127,9 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+
+<style>
+@import './App.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -137,157 +139,5 @@ export default {
   /* margin-top: 60px; */
   background: #ddd;
 }
-  .box {
-    width: 100vw;
-    display: flex;
-    .size{
-      width: 10% !important;
-      .head{
-        font-size: 16px !important;
-      }
-    }
-    .rSize{
-      width: 90% !important;
-    }
-    .left {
-      width: 15%;
-      height: 100vh;
-      background: white;
-      box-shadow: 0 10px 20px #d0d0d0;
-      transition: width 0.5s;
-      .head {
-        height: 60px;
-        line-height: 60px;
-        background: #d0121b;
-        color: white;
-        font-size: 20px;
-      }
-      .left_main {
-        box-sizing: border-box;
-        padding: 0 10px;
-        .main-head {
-          text-align: left;
-          p {
-            font-size: 14px;
-          }
-          div {
-            width: 90%;
-            height: 50px;
-            line-height: 50px;
-            background: #e1e0e0;
-            border-radius: 100px;
-            color: #364ec5;
-            font-weight: bold;
-            padding: 0 20px;
-            box-sizing: border-box;
-            .van-icon {
-              font-size: 20px;
-              font-weight: 900;
-            }
-          }
-        }
-        .item {
-          display: flex;
-          flex-direction: column;
-          margin-top: 30px;
-          span {
-            text-align: left;
-            font-size: 14px;
-            color: #808080;
-          }
-          .van-collapse {
-            text-align: left;
-            margin-top: 15px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .van-collapse-item{
-              width: 90%;
-              .van-icon{
-                font-size: 24px;
-                color: #808080;
-              }
-              span{
-                font-size: 14px;
-                font-weight: bold;
-                margin-left: 10px;
-                color: rgb(67, 67, 67);
-              }
-              .van-cell__title{
-                div{
-                  display: flex;
-                  align-items: center;
-                }
-              }
-            }
-            .active{
-              background: #e1e0e0;
-              color: #2c4198;
-            }
-          }
-        }
-        .son-list{
-          div.rou{
-            .van-icon{
-              color: #2f4198 !important;
-            }
-            span{
-              color: #2f4198 !important;
-            }
-          }
-          .son-list-item{
-           height: 30px;
-           line-height: 30px;
-            .van-icon{
-              font-size: 14px !important;
-            }
-            span{
-              font-size: 12px !important;
-            }
-          }
-        }
-      }
-      .left_icon{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        div{
-          width: 60px;
-          height: 60px;
-          line-height: 60px;
-          font-size: 30px;
-          color: #808080;
-          margin: 20px 0;
-          border-radius: 40px;
-          font-weight: bold;
-        }
-        div.active{
-          background: #d0d0d0;
-          color: rgb(255, 255, 255);
-        }
-      }
-    }
-    .right{
-      width: 85%;
-      .right-head{
-        height: 60px;
-        background: #2c4198;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
-        padding: 0 30px;
-        .blue{
-          background: #14256c;
-        }
-        .head-icon{
-          .van-icon{
-            color: white;
-            font-size: 30px;
-            margin-right: 20px;
-          }
-        }
-      }
-    }
-  }
+
 </style>

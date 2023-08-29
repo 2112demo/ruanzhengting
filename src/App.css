@@ -1,0 +1,145 @@
+.boxApp {
+  width: 100vw;
+  display: flex;
+}
+.boxApp .size {
+  width: 10% !important;
+}
+.boxApp .size .head {
+  font-size: 16px !important;
+}
+.boxApp .rSize {
+  width: 90% !important;
+}
+.boxApp .left {
+  width: 15%;
+  height: 100vh;
+  background: white;
+  box-shadow: 0 10px 20px #d0d0d0;
+  transition: width 0.5s;
+}
+.boxApp .left .head {
+  height: 60px;
+  line-height: 60px;
+  background: #d0121b;
+  color: white;
+  font-size: 20px;
+}
+.boxApp .left .left_main {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.boxApp .left .left_main .main-head {
+  text-align: left;
+}
+.boxApp .left .left_main .main-head p {
+  font-size: 14px;
+}
+.boxApp .left .left_main .main-head div {
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  background: #e1e0e0;
+  border-radius: 100px;
+  color: #364ec5;
+  font-weight: bold;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.boxApp .left .left_main .main-head div .van-icon {
+  font-size: 20px;
+  font-weight: 900;
+}
+.boxApp .left .left_main .item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.boxApp .left .left_main .item span {
+  text-align: left;
+  font-size: 14px;
+  color: #808080;
+}
+.boxApp .left .left_main .item .van-collapse {
+  text-align: left;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxApp .left .left_main .item .van-collapse .van-collapse-item {
+  width: 90%;
+}
+.boxApp .left .left_main .item .van-collapse .van-collapse-item .van-icon {
+  font-size: 24px;
+  color: #808080;
+}
+.boxApp .left .left_main .item .van-collapse .van-collapse-item span {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #434343;
+}
+.boxApp .left .left_main .item .van-collapse .van-collapse-item .van-cell__title div {
+  display: flex;
+  align-items: center;
+}
+.boxApp .left .left_main .item .van-collapse .active {
+  background: #e1e0e0;
+  color: #2c4198;
+}
+.boxApp .left .left_main .son-list div.rou .van-icon {
+  color: #2f4198 !important;
+}
+.boxApp .left .left_main .son-list div.rou span {
+  color: #2f4198 !important;
+}
+.boxApp .left .left_main .son-list .son-list-item {
+  height: 30px;
+  line-height: 30px;
+}
+.boxApp .left .left_main .son-list .son-list-item .van-icon {
+  font-size: 14px !important;
+}
+.boxApp .left .left_main .son-list .son-list-item span {
+  font-size: 12px !important;
+}
+.boxApp .left .left_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxApp .left .left_icon div {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  color: #808080;
+  margin: 20px 0;
+  border-radius: 40px;
+  font-weight: bold;
+}
+.boxApp .left .left_icon div.active {
+  background: #d0d0d0;
+  color: #ffffff;
+}
+.boxApp .right {
+  width: 85%;
+}
+.boxApp .right .right-head {
+  height: 60px;
+  background: #2c4198;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.boxApp .right .right-head .blue {
+  background: #14256c;
+}
+.boxApp .right .right-head .head-icon .van-icon {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}

@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4222098 */
-  src: url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.woff2?t=1692778467868') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.woff?t=1692778467868') format('woff'),
-       url('//at.alicdn.com/t/c/font_4222098_q3jcjehm7d.ttf?t=1692778467868') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4222098_vt73beiib1m.woff2?t=1693140865027') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4222098_vt73beiib1m.woff?t=1693140865027') format('woff'),
+       url('//at.alicdn.com/t/c/font_4222098_vt73beiib1m.ttf?t=1693140865027') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rili:before {
+  content: "\e8cf";
 }
 
 .icon-excel-:before {

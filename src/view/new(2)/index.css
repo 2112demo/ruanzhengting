@@ -1,0 +1,67 @@
+.new {
+  box-sizing: border-box;
+  padding: 0 14px;
+}
+.new .header {
+  text-align: left;
+  height: 60px;
+  line-height: 60px;
+}
+.new .header .van-icon {
+  font-size: 30px;
+  color: #2c4198;
+}
+.new .content {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.new .content .steps-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #f0f0f0;
+}
+.new .content .steps-box .steps-item {
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+.new .content .steps-box .steps-item h1 {
+  font-family: "方正汉真广标简体";
+  font-size: 60px;
+  margin-right: 6px;
+}
+.new .content .steps-box .steps-item .steps-msg {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.new .content .steps-box .steps-item .steps-msg span:nth-child(1) {
+  font-weight: bold;
+}
+.new .content .steps-box .steps-item .steps-msg span:nth-child(2) {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.new .content .steps-box .steps-circle {
+  display: flex;
+  align-items: center;
+}
+.new .content .steps-box .steps-circle div:nth-child(2) {
+  width: 14px;
+  height: 14px;
+}
+.new .content .steps-box .steps-circle div {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 40px;
+  background: #999999;
+}
+.new .content .steps-box .steps-item:nth-child(1) {
+  color: #28c76f;
+}
+.new .content .steps-box .steps-item:nth-child(3) {
+  color: #dd2617;
+}
